@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+html {
+    font-size: 15px;
+    background-color:lightpink;
+  }
+  
+body {
+
+    min-width: 1000px;
+    margin: 0 auto;
+  }
+  
+span{
+    font-weight: bold;
+}
+
+header {
+    margin-top: 0;
+    height: 80px;
+    color: white;
+    background-color:hotpink;  
+  }
+
+.middle {
+    width: 700px;
+    margin:0 auto;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+}
+.head a{
+    color: white;
+}
+.banner{
+    background-color: deeppink;
+    padding: 1%;
+    height: 70px;
+  }
+.ban-r{
+    float: right;
+}
+header .middle h1,header .middle ul{
+    display: inline-block;
+}
+header ul {
+}
+.middle-btn div{
+   display:inline-block;
+   border: 1px solid black; 
+   background: white;
+}
+ol li,ul li{
+    list-style: none;
+    display: inline;
+}
+ol{
+    padding-top: 50px;
+}
+ol li{
+    border: 1px solid white;
+}
+
+
+.content{
+    display: flex;
+}
+.content p{
+    flex: 1;
+    padding-top:25px;
+    border: 2px solid #9400D3;
+    height: 100px;
+    text-align: center;
+    margin: 5px;
+    box-sizing: border-box;
+}
+footer {
+    background-color:dodgerblue;
+    margin-top: 50px;
+    width: 100%;
+
+    text-decoration: none;
+    height: 50px;
+    text-align: center;
+}
+.wei{
+    padding-top: 16px;
+}
